@@ -1,0 +1,18 @@
+1. Given number is odd or even:
+coding:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("even or odd");
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=scanner.nextInt();
+        if(n%2==0)
+        {
+            System.out.println("Its even");
+        }
+        else{
+            System.out.println("Its odd");
+        }
+    }
+}
