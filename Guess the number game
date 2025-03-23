@@ -27,3 +27,21 @@ public class Main
     
     }
 }}
+
+ANOTHER:}
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        Random random=new Random();
+        int ran=random.nextInt(10);
+        System.out.println(ran);
+        int guess;
+        do{
+            System.out.print("Enter the number from 1 to 10 :");
+                     guess=sc.nextInt();
+
+            }while(guess!=random);
+        
+            }
+}
