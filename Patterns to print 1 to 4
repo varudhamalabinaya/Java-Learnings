@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the size of the square: ");
+        int n = sc.nextInt();
+
+        for (int i = n; i <= 1; i--) { // Rows
+            for (int j = n; j <= 1; j--) { // Columns
+                System.out.print(i);
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+
+        sc.close(); // Close Scanner (Good Practice)
+    }
+}
