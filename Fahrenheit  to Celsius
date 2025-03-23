@@ -1,0 +1,18 @@
+import java.util.*;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		int S=sc.nextInt();
+		int E=sc.nextInt();
+		int W=sc.nextInt();
+		 for (int F = S; F <= E; F += W) {
+            int C = (5 * (F - 32)) / 9; 
+            System.out.println(F + " " + C);
+        }
+		
+		
+	}
+
+}
