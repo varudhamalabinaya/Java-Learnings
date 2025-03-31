@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Value {  // Class names should start with an uppercase letter (convention)
+    public static int add(int num1, int num2) {
+        int ans = num1 + num2;
+        return ans; // Corrected: Returning the sum
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        sc.close();  // Closing Scanner to prevent resource leak
+
+        int ans = add(num1, num2); // Calling add() and storing the result
+        System.out.println(ans);   // Printing the result
+    }
+}
